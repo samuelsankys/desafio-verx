@@ -41,5 +41,5 @@ bower_components
 .env.test.local
 .env.production.local
 .env.local
-.env*
+.env.development
 

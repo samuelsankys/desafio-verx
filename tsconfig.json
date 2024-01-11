@@ -24,7 +24,7 @@
       "@/tests/*": ["tests/*"]
     }
   },
-  "include": ["src", "tests", "src/*.s.ts"],
+  "include": ["src", "tests", "src/*.s.ts", "src/docs"],
   "exclude": ["node_modules", "dist"],
   "ts-node": {
     "files": true

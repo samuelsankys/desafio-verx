@@ -14,9 +14,11 @@ module.exports = {
     tsconfigRootDir: __dirname,
   },
   rules: {
-    'prettier/prettier': ['error', { singleQuote: true }],
+    'prettier/prettier': ['error', { endOfLine: 'auto', singleQuote: true }],
+    'linebreak-style': ['error', 'windows'],
     quotes: ['error', 'single'],
     semi: ['error', 'never'],
+    'linebreak-style': 'off',
     'no-useless-catch': 'off',
     '@typescript-eslint/strict-boolean-expressions': 'off',
     '@typescript-eslint/comma-dangle': 'off',
@@ -28,6 +30,6 @@ module.exports = {
     '@typescript-eslint/no-extraneous-class': 'off',
     '@typescript-eslint/no-namespace': 'off',
     '@typescript-eslint/indent': 'off',
-    "@typescript-eslint/no-misused-promises": "off"
+    '@typescript-eslint/no-misused-promises': 'off',
   },
 }
