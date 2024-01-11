@@ -13,7 +13,6 @@ export class GetFarmUseCase implements UseCase<GetFarmRequestDTO, Promise<GetFar
 
   async perform(request: GetFarmRequestDTO): Promise<GetFarmResponse> {
     const farmExists = await this.farmRepo.getById(request.farmId)
-    console.log({ farmExists })
 
     if (!farmExists) return left(new GetFarmErrors.FarmNotExistsError())
 
