@@ -11,6 +11,10 @@ interface IProducerProps {
 }
 
 export class Producer extends Entity<IProducerProps> {
+  get producerId() {
+    return this.id
+  }
+
   get name() {
     return this.props.name
   }
