@@ -25,5 +25,9 @@ module.exports = {
     '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/no-explicit-any': 'off',
     '@typescript-eslint/no-non-null-assertion': 'off',
+    '@typescript-eslint/no-extraneous-class': 'off',
+    '@typescript-eslint/no-namespace': 'off',
+    '@typescript-eslint/indent': 'off',
+    "@typescript-eslint/no-misused-promises": "off"
   },
 }
